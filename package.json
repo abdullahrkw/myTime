@@ -1,0 +1,28 @@
+{
+  "name": "unix-time-ms",
+  "version": "0.0.1",
+  "description": "Unix timestamp in GMT in millisecond",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "unix",
+    "gmt",
+    "timestamp",
+    "millisecond"
+  ],
+  "author": "abdullahrkw",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.4",
+    "path": "^0.12.7",
+    "pug": "^2.0.4",
+    "require": "^2.4.20"
+  }
+}

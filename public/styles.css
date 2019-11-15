@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    color: blanchedalmond;
+}
+header, #unix-time, #real-time { 
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+header{
+    padding : 5%;
+    font-size: 40px;
+}
+
+
+#unix-time{
+
+    font-size: 200px;
+
+}
+#real-time{
+    font-size: 50px;
+    padding: 5%;
+
+}
